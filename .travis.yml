@@ -1,0 +1,8 @@
+language: java
+jdk:
+ - oraclejdk8
+deploy:
+  provider: heroku
+  api-key:
+    secure: 885cf108-12ad-4029-86b4-2e902fd951ed
+  app: demo-ci-tudan
