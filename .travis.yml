@@ -3,8 +3,7 @@ jdk:
  - oraclejdk8
 deploy:
   provider: heroku
-  api-key:
-    secure: 885cf108-12ad-4029-86b4-2e902fd951ed
+  api-key: $HEROKU_API_KEY
   app: demo-ci-tudan
 before_install:
   - chmod +x mvnw
